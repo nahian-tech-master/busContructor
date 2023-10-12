@@ -82,8 +82,8 @@
         <div class="w-50 m-auto">
             <form action="userinfo.php" method="post">
                 <div class="form-group">
-                    <label for="sel1" >From:</label>
-                        <select class="form-control" id="sel1" >
+                    <label for="sel1">From:</label>
+                        <select class="form-control" id="sel1" name="From" >
                             <option>Choose an option below</option>
                             <option>Dhaka</option>
                             <option>Chittagong</option>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="form-group">
                     <label for="sel1" >To:</label>
-                        <select class="form-control" id="sel1" >
+                        <select class="form-control" id="sel1" name="To" >
                             <option>Choose an option below</option>
                             <option>Dhaka</option>
                             <option>Chittagong</option>
@@ -109,57 +109,22 @@
                 </div>
                 <div class="form-group">
                     <label for="name">Deperture:</label>
-                    <input type="date" name="user" placeholder="pick a date"  autocomlete="off" class="form-control">
+                    <input type="date" name="Deperture" placeholder="pick a date"  autocomlete="off" class="form-control">
                 </div>
                
                 <div class="form-group">
                     <label for="name">Arrival:</label>
-                    <input type="date" name="user" placeholder="pick a date" autocomlete="off" class="form-control">
+                    <input type="date" name="Arrival" placeholder="pick a date" autocomlete="off" class="form-control">
                 </div>
-                <button type="submit" class="btn btn-success">Search</button>
+                <button type="submit" class="btn btn-success" a>Search</button>
             </form>
         </div>
     </section>
 <!--form-->
 
-<!--seat start-->
-    <section class="" id="int-2">
-        <div>
-            <div>
-                <h2>Chittagong to Khulna</h2>
-                <span>
-                    
-                </span>
-                <span>
-                
-                </span>
-                <span>
-                
-                </span>
-                <span>
-                
-                </span>
-            </div>
-        </div>
-        <div>
-            
-
-        </div>
-        <div>
-            
-
-        </div>
-        <div>
-            
-
-        </div>
-        <div>
-            
-
-        </div>
-
-    </section>
-<!--seat end-->
+<!--footer start-->
+     
+<!--footer end-->
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
