@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -53,13 +53,13 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img1.jpg" alt="Los Angeles" >
+                <img src="images/img1.jpg" alt="Los Angeles" >
             </div>
             <div class="carousel-item">
-                <img src="img.jpg" alt="Chicago" >
+                <img src="images/img.jpg" alt="Chicago" >
             </div>
             <div class="carousel-item">
-                <img src="img2.jpg" alt="New York" >
+                <img src="images/img2.jpg" alt="New York" >
             </div>
         </div>
 
