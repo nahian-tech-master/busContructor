@@ -1,13 +1,11 @@
 <?php
 
 $con = mysqli_connect("localhost", "root", "");
-if($con){
-    echo "Connection successful";
-}else{
+if(!$con){
     echo "No connection";
 }
 
-mysqli_select_db($con, 'buscontructor');
+mysqli_select_db($con, 'busconstructor');
 
 $From = $_POST['From'];
 $To = $_POST['To'];

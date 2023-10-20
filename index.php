@@ -108,7 +108,7 @@
                         </select>
                 </div>
                 <div class="form-group">
-                    <label for="name">Deperture:</label>
+                    <label for="name">Departure:</label>
                     <input type="date" name="Deperture" placeholder="pick a date"  autocomlete="off" class="form-control">
                 </div>
                
